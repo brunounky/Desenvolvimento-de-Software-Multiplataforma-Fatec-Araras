@@ -4,6 +4,7 @@ Cadastro de aluno
 
 Prof. Me. Orlando Saraiva Jr
 */
+#include <stdlib.h>
 #include <iostream>
 #include <string>
 #include <stdlib.h>
