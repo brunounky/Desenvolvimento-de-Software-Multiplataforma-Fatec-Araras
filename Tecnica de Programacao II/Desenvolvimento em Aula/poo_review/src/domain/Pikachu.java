@@ -19,11 +19,16 @@ public class Pikachu {
     }
 
     public void iChooseYou() {
-        System.out.println(x:"Eu estolho voce");
+        System.out.println("Eu estolho voce");
     }
 
     public void comeBack() {
-        System.out.println(x:"Come back...");
+        System.out.println("Come back...");
+    }
+
+    @Override
+    public String toString() {
+        return "Pikachu [nick=" + nick + ", cp=" + cp + ", hp=" + hp + "]";
     }
 
 }
