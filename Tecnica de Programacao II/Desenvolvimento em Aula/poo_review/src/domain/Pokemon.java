@@ -6,9 +6,9 @@ e comportamentos
 */
 public abstract class Pokemon {
     // Atributos
-    private String nick;
-    private int cp;
-    private int hp;
+    public String nick;
+    public int cp;
+    public int hp;
 
     // Comportamentos
     public Pokemon(String nick, int cp, int hp) {
@@ -53,6 +53,12 @@ public abstract class Pokemon {
     public void comeBack() {
         System.out.println("Come back...");
     }
+
+    public abstract void attack(); //Criação de um método abstrato, tem que fazer a implementação
+    // classe abstrata nao pode ser instanciada
+
+    //Interface é uma classe 100% abstrat
+    //
 
     @Override
     public String toString() {
