@@ -1,6 +1,8 @@
 package domain;
 
-public class Charmander extends Pokemon {
+import domain.interfaces.FireType;
+
+public class Charmander extends Pokemon implements FireType{
 
     public Charmander(String nick, int cp, int hp) {
         super(nick, cp, hp);
@@ -8,8 +10,12 @@ public class Charmander extends Pokemon {
 
     @Override
     public void attack() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'attack'");
+        amber();
+    }
+
+    @Override
+    public void amber() {
+        System.out.println("Charmander executou o ataque amber");
     }
     
 }

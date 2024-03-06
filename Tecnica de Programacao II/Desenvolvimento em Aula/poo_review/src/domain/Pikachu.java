@@ -10,8 +10,7 @@ public class Pikachu extends Pokemon implements EletricType{
 
     @Override
     public void attack() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'attack'");
+        thunderbolt();
     }
 
     @Override

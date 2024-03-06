@@ -1,5 +1,8 @@
 package domain;
-public class Squirtle extends Pokemon {
+
+import domain.interfaces.WaterType;
+
+public class Squirtle extends Pokemon implements WaterType{
 
     public Squirtle(String nick, int cp, int hp) {
         super(nick, cp, hp);
@@ -7,8 +10,12 @@ public class Squirtle extends Pokemon {
 
     @Override
     public void attack() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'attack'");
+        splash();
+    }
+
+    @Override
+    public void splash() {
+        System.out.println("Squirtle executou o ataque splash");
     }
     
 }
