@@ -8,6 +8,7 @@ import domain.Pikachu;
 import domain.Pokemon;
 import domain.Squirtle;
 import domain.Zapdos;
+import domain.interfaces.EletricType;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -23,5 +24,9 @@ public class App {
                 System.out.println(pokemon);
                 pokemon.attack();
             }
+
+            Zapdos pokemon = new Zapdos("Zapdos", 1000, 120);
+            pokemon.thunderbolt();
+            pokemon.wingAttack();
     }
 }
