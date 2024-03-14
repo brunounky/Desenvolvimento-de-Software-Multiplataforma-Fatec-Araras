@@ -59,14 +59,14 @@ int main(int argc, char** argv) {
 	}
 	if (op == 1 and opPC == 3){
 		cout << endl << "Voce venceu";
-		cout << endl << "pedra esmaga tesoura";
+		cout << endl << "Pedra esmaga tesoura";
 	}
 	if (op == 1 and opPC == 4){
 		cout << endl << "Voce venceu";
-		cout << endl << "pedra esmaga lagarto";
+		cout << endl << "Pedra esmaga lagarto";
 	}
 	if (op == 1 and opPC == 5){
-		cout << endl << "Voce venceu";
+		cout << endl << "Computador venceu";
 		cout << endl << "Spock vaporiza pedra";
 	}
 	
@@ -154,7 +154,7 @@ int main(int argc, char** argv) {
 	}
 	if (op == 5 and opPC == 4){
 		cout << endl << "Computador venceu";
-		cout << endl << "Lagarto envenena spock";
+		cout << endl << "Lagarto envenena lagarto";
 	}
 	if (op == 5 and opPC == 5){
 		cout << endl << "Não temos um vencedor, jogue dnv";
