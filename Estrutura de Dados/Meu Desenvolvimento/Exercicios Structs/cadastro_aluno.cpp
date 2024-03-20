@@ -27,6 +27,12 @@ int main(int argc, char** argv) {
 	cout << "Informe a média final do aluno " << endl;
 	cin >> new_aluno->media_final;
 	
+	cout << endl << "------------------------------------------";
+	cout << endl << "Informações do aluno cadastrado";
+	cout << endl << "Nome: " << new_aluno->nome_completo;
+	cout << endl << "Idade: " << new_aluno->idade;
+	cout << endl << "Média Final: " << new_aluno->media_final;
+	
 	
 	return 0;
 }
