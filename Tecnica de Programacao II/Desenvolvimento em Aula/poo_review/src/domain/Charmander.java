@@ -1,6 +1,6 @@
 package domain;
 
-import domain.interfaces.FireType;
+import domain.intefaces.FireType;
 
 public class Charmander extends Pokemon implements FireType{
 
@@ -15,7 +15,6 @@ public class Charmander extends Pokemon implements FireType{
 
     @Override
     public void amber() {
-        System.out.println("Charmander executou o ataque amber");
+        System.out.println("Charmander executou o ataque amber!");
     }
-    
 }

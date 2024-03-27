@@ -1,8 +1,8 @@
 package domain;
 
-import domain.interfaces.WaterType;
+import domain.intefaces.WaterType;
 
-public class Squirtle extends Pokemon implements WaterType{
+public class Squirtle extends Pokemon implements WaterType {
 
     public Squirtle(String nick, int cp, int hp) {
         super(nick, cp, hp);
@@ -15,7 +15,7 @@ public class Squirtle extends Pokemon implements WaterType{
 
     @Override
     public void splash() {
-        System.out.println("Squirtle executou o ataque splash");
+        System.out.println("Pikachu executou o splash thunderbolt!");
     }
     
 }
