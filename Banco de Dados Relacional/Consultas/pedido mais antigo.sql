@@ -1,0 +1,1 @@
+SELECT cliente.id, cliente.nome, cliente.telefone FROM cliente INNER JOIN pedido ON cliente.id = pedido.idcliente ORDER BY DESC datemis

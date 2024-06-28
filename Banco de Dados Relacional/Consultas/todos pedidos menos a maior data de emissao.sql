@@ -1,0 +1,1 @@
+SELECT * FROM pedido WHERE datemissao < (SELECT MAX(datemissao) FROM pedido)
