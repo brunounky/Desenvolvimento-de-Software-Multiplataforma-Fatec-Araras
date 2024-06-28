@@ -1,0 +1,99 @@
+body{
+    background-image: url(../Images/background.jpg);
+}
+
+.divprincipal{
+    margin: auto;
+    box-shadow: 0 0 2em grey;
+    width: 960px;
+    font-style: italic;
+}
+
+.divnavbarimg{
+    background-color: #ffff;
+}
+
+.divnavbar{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.imglogo{
+    margin-top: 9px;
+    margin-left: 15px;
+    height: auto;
+}
+
+.textnavbar{
+    color: black;
+    margin-right: 50px;
+    line-height: 85px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.divintroducao{
+    padding: 65px;
+    background-color: #ffff;
+}
+
+.divcards{
+    background-color: #ebebeb;
+    padding: 55px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgcards{
+    border-radius: 50%;
+    border: 9px solid red;
+    width: 160px;
+    height: 160px;
+}
+
+.textmodelcards{
+    width: 200px;
+}
+
+.divlocalizacao{
+    background-color: #fe0000;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa{
+    border: 0px;
+    height: 400px;
+    width: 400px;
+}
+
+.divtextolocalizacao{
+    margin-right: 80px;
+    margin-left: 80px;
+    color: white;
+}
+
+.divcontato{
+    background-color: #ffff;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divrodape{
+    background-color: #fe0000;
+    padding: 0.2px;
+    text-align: center;
+    color: white;
+}
+
+.fontusada{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}

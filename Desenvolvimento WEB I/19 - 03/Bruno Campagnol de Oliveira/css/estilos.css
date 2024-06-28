@@ -1,0 +1,107 @@
+body{
+    background-color: #EBEBEB;
+}
+
+.divmaior{
+    margin: auto;
+    width: 960px;
+    box-shadow: 0 0 2em gray;}
+
+.barranavbar{
+    display: flex;
+    background-color: #382119;
+    height: 75px;
+    justify-content: space-between;
+}
+
+.logobarranavbar{
+    height: 68px;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+
+.itemnavbar{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 35px;
+    line-height: 75px;
+}
+
+.burgerfoto1{
+    border-radius: 51%;
+    margin-right: 5%;
+}
+
+.textosobre{
+    text-align: justify;
+}
+
+.divcaixa2{
+    background-color: #FFFFFF;
+    padding: 90px;
+}
+
+.estilo1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subdivcaixa2{
+    display: flex;
+    text-align: justify;
+}
+
+.divcaixa3{
+    background-color: #382119;
+    padding: 90px;
+}
+
+.textolanches{
+    color: white;
+}
+
+.opcoeslanches{
+    background-color: white;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 140px;
+}
+
+.burgerfoto2{
+    width: 130px;
+    border-radius: 51%;
+    margin-left: 5%;
+}
+
+.divcaixa4{
+    display: flex;
+    background-color: #D3C39D;
+}
+
+.subdivcaixa3{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.subdivcaixa4{
+    padding: 90px;
+}
+
+.mapa{
+    width: 700px;
+    height: 350px;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    border: none;
+}
+
+.rodape{
+    height: 60px;
+    background-color: #382119;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
